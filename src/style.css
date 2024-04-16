@@ -1,0 +1,84 @@
+body {
+  background-color: #07000d;
+  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+
+.to-do-list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.to-do-list h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}
+
+.to-do-list ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.to-do-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.text {
+  flex: 1;
+}
+
+.delete-button,
+.up-button,
+.down-button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover,
+.up-button:hover,
+.down-button:hover {
+  background-color: #d32f2f;
+}
+
+.up-button,
+.down-button {
+  margin-left: 5px;
+}
